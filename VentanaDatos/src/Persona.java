@@ -5,7 +5,7 @@ public class Persona {
     String genero;
     String fechaNacimiento;
 
-    public Persona(String apellidoPaterno, String nombre, String apellidoMaterno, String genero, String fechaNacimiento) {
+    public Persona(String nombre,String apellidoPaterno, String apellidoMaterno, String genero, String fechaNacimiento) {
         this.apellidoPaterno = apellidoPaterno;
         this.nombre = nombre;
         this.apellidoMaterno = apellidoMaterno;
@@ -56,11 +56,11 @@ public class Persona {
     @Override
     public String toString() {
         return "Persona{" +
-                "apellidoMaterno='" + apellidoMaterno + '\'' +
-                ", nombre='" + nombre + '\'' +
-                ", apellidoPaterno='" + apellidoPaterno + '\'' +
-                ", genero='" + genero + '\'' +
-                ", fechaNacimiento='" + fechaNacimiento + '\'' +
+                "Nombre='" + nombre + '\'' +
+                ", Apellido Paterno='" + apellidoPaterno + '\'' +
+                ", Apellido Materno='" + apellidoMaterno + '\'' +
+                ", Genero='" + genero + '\'' +
+                ", Fecha de Nacimiento='" + fechaNacimiento + '\'' +
                 '}';
     }
 }
