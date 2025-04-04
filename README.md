@@ -1,5 +1,6 @@
 # CURP Extractor con Interfaz Gráfica en Java 🧾🇲🇽
 
+
 Esta aplicación permite al usuario ingresar un CURP (Clave Única de Registro de Población) y automáticamente extrae datos importantes como:
 
 - Fecha de nacimiento 🗓️

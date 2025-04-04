@@ -5,6 +5,7 @@ public class Persona {
     String genero;
     String fechaNacimiento;
 
+
     public Persona(String nombre,String apellidoPaterno, String apellidoMaterno, String genero, String fechaNacimiento) {
         this.apellidoPaterno = apellidoPaterno;
         this.nombre = nombre;

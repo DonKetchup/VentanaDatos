@@ -9,7 +9,6 @@ import java.util.Objects;
 public class Ventana {
     JFrame ventana = new JFrame("Sacar CURP");
 
-
     public Ventana() {
         ventana.setSize(350, 300);
         ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
